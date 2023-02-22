@@ -1,0 +1,3 @@
+interface NameShape {
+    void printName();
+}
