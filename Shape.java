@@ -1,3 +1,3 @@
 abstract class Shape {
-    abstract public void printName();
+    abstract public String printName();
 }

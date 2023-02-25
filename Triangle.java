@@ -1,6 +1,7 @@
-public class Triangle extends Shape implements Printer{
+public class Triangle extends Shape{
     @Override
-    public void printName(){
-        System.out.println("Triangle");
+    public String printName(){
+
+        return "Triangle";
     }
 }

@@ -1,7 +1,7 @@
-public class Circle extends Shape implements Printer {
+public class Circle extends Shape {
  @Override
- public void printName(){
-        System.out.println("Circle");
+ public String printName(){
+     return "Circle";
     }
 }
 

@@ -1,6 +1,6 @@
-public class Rectangle extends Shape implements Printer{
+public class Rectangle extends Shape {
     @Override
-    public void printName(){
-        System.out.println("Rectangle");
+    public String printName(){
+         return "Rectangle";
     }
 }

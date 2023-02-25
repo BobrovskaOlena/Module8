@@ -1,6 +1,6 @@
-public class Trapeze extends Shape implements Printer{
+public class Trapeze extends Shape {
     @Override
-    public void printName(){
-        System.out.println("Trapeze");
+    public String printName(){
+        return "Trapeze";
     }
 }
