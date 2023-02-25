@@ -1,16 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        Shape a = new Shape();
-        a.printName();
-        Circle c = new Circle();
-        c.printName();
-        Quad q = new Quad();
-        q.printName();
-        Rectangle r = new Rectangle();
-        r.printName();
-        Triangle t = new Triangle();
-        t.printName();
-        Trapeze tr = new Trapeze();
-        tr.printName();
+        Shape circle = new Circle();
+        new Circle().printer();
+        circle.printName();
+        Shape quad = new Quad();
+        new Quad().printer();
+        quad.printName();
+        Shape rectangle = new Rectangle();
+        new Rectangle().printer();
+        rectangle.printName();
+        Shape triangle = new Triangle();
+        new Triangle().printer();
+        triangle.printName();
+        Shape trapeze = new Trapeze();
+        new Trapeze().printer();
+        trapeze.printName();
     }
 }

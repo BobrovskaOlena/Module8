@@ -1,6 +1,6 @@
-public class Quad extends Shape{
+public class Quad extends Shape implements Printer {
     @Override
     public void printName(){
-        System.out.println("Shape is: Quad");
+        System.out.println("Quad");
     }
 }

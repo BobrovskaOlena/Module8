@@ -1,3 +1,0 @@
-interface NameShape {
-    void printName();
-}

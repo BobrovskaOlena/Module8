@@ -1,5 +1,3 @@
-public class Shape implements NameShape {
-    public void printName(){
-        System.out.println("Shape is: ");
-    }
+abstract class Shape {
+    abstract public void printName();
 }
