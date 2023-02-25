@@ -1,6 +1,6 @@
 public class Circle extends Shape {
  @Override
- public String printName(){
+ public String getName(){
      return "Circle";
     }
 }

@@ -1,6 +1,6 @@
 public class Rectangle extends Shape {
     @Override
-    public String printName(){
+    public String getName(){
          return "Rectangle";
     }
 }

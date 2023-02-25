@@ -1,6 +1,6 @@
 public class Quad extends Shape {
     @Override
-    public String printName(){
+    public String getName(){
         return "Quad";
     }
 }

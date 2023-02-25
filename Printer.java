@@ -1,4 +1,6 @@
-public interface Printer {
-     void printShapeName(String shape);
+public class Printer {
 
+    public void printShapeName(Shape shape) {
+        System.out.println("Shape is "+ shape.getName());
+    }
 }
